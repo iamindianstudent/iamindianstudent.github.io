@@ -1,0 +1,164 @@
+html,body {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    margin-inline: auto;
+    background-color: #efefefef;
+    font-size: 16px;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+header>nav>ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.page {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 2rem;
+    text-transform: capitalize;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+button {
+    text-transform: uppercase;
+    height: 2rem;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    margin-right: 1rem;
+    border: none;
+    margin-top: 0.75rem;
+}
+
+.main {
+    justify-content: space-between;
+}
+
+#home {
+    display: flex;
+    height: 100%;
+}
+
+[alt="profile-pic"] {
+    margin-right: 8rem;
+}
+
+.text {
+    flex-grow: 1;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    text-transform: uppercase;
+    color: red;
+
+}
+
+h1 {
+    color: black;
+    font-size: 400%;
+    text-transform: capitalize;
+}
+
+.lorem {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#about {
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+}
+
+[alt="about-photo"] {
+    height: 100%;
+}
+
+.content {
+    display: block;
+    font-size: xxx-large;
+    margin-top: 2rem;
+    text-align: center;
+    margin-left: 10rem;
+}
+
+.button {
+    margin: 2rem;
+}
+h2{
+    font-size: medium;
+}
+
+[alt="profle"] {
+    margin-top: 7rem;
+}
+
+#portfolio {
+    display: block;
+    text-align: center;
+}
+
+[alt="link"] {
+    display: flex;
+}
+
+.portfolio-content {
+    display: flex
+}
+
+[alt="footer-logo"] {
+    padding-left: 40%;
+    margin-top: 4rem;
+}
+
+#Address {
+    height: 20rem;
+    background-color: darkslateblue;
+}
+
+.email {
+    padding-left: 32%;
+    font-size: xxx-large;
+    color: white;
+}
+
+.footer-c {
+    padding-left: 40%;
+}
+
+.address {
+    padding-left: 40%;
+    padding-top: 1rem;
+    font-size: medium;
+    font-weight: 700;
+
+}
+
+.road {
+    padding-left: 43%;
+    padding-top: 1rem;
+    font-size: medium;
+    font-weight: 700;
+}
